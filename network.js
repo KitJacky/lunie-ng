@@ -1,24 +1,24 @@
 export default {
-  id: 'cosmos-hub-mainnet',
-  name: 'Cosmos Mainnet',
+  id: 'meme-1',
+  name: 'Meme Mainnet',
   description:
-    'Cosmos is a network of independent parallel blockchains, powered by BFT consensus algorithms like Tendermint.',
+    'Meme is a network of independent parallel blockchains, powered by BFT consensus algorithms like Tendermint.',
   logo: `logo.svg`,
-  website: 'https://cosmos.network',
+  website: 'https://meme.sx',
   // apiURL: 'http://localhost:8010/proxy',
-  apiURL: 'https://api.cosmos.network',
-  rpcURL: 'https://rpc.cosmos.network',
-  minBlockHeight: 5200792, // actually 5200791, but it has the wrong block time.
-  stakingDenom: 'ATOM',
+  apiURL: 'https://api-meme-1.meme.sx',
+  rpcURL: 'https://rpc-meme-1.meme.sx',
+  minBlockHeight: 1601000, // actually 5200791, but it has the wrong block time.
+  stakingDenom: 'MEME',
   coinLookup: [
     {
-      viewDenom: 'ATOM',
-      chainDenom: 'uatom',
+      viewDenom: 'MEME',
+      chainDenom: 'umeme',
       chainToViewConversionFactor: 1e-6,
       icon: `currencies/atom.png`,
     },
   ],
-  addressPrefix: 'cosmos',
+  addressPrefix: 'meme',
   validatorAddressPrefix: 'cosmosvaloper',
   validatorConsensusaddressPrefix: 'cosmosvalcons', // needed to map validators from staking queries to the validator set
   HDPath: `m/44'/118'/0'/0/0`,
@@ -28,8 +28,8 @@ export default {
       gasEstimate: 350000,
       feeOptions: [
         {
-          denom: 'ATOM',
-          amount: 0.001,
+          denom: 'MEME',
+          amount: 0.025,
         },
       ],
     },
