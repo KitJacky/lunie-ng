@@ -6,8 +6,8 @@ export default {
   logo: `logo.svg`,
   website: 'https://meme.sx',
   // apiURL: 'http://localhost:8010/proxy',
-  apiURL: 'https://api-meme-1.meme.sx',
-  rpcURL: 'https://rpc-meme-1.meme.sx',
+  apiURL: 'https://meme-api.polkachu.com',
+  rpcURL: 'https://meme-rpc.polkachu.com',
   minBlockHeight: 1601000, // actually 5200791, but it has the wrong block time.
   stakingDenom: 'MEME',
   coinLookup: [
@@ -34,6 +34,6 @@ export default {
       ],
     },
   },
-  icon: `https://v1.cosmos.network/img/brandmark.c15d55f6.png`,
+  icon: `https://ping.pub/logos/meme.svg`,
   localSigning: true, // this is only to be used as a developer tool - never deployed in production or for mainnet chains
 }
