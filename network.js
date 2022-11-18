@@ -6,8 +6,8 @@ export default {
   logo: `logo.svg`,
   website: 'https://meme.sx',
   // apiURL: 'http://localhost:8010/proxy',
-  apiURL: 'https://meme-api.polkachu.com',
-  rpcURL: 'https://meme-rpc.polkachu.com',
+  apiURL: 'https://api.meme.pupmos.network',
+  rpcURL: 'https://rpc.meme.pupmos.network',
   minBlockHeight: 1601000, // actually 5200791, but it has the wrong block time.
   stakingDenom: 'MEME',
   coinLookup: [
